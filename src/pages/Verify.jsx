@@ -45,7 +45,7 @@ const Verify = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="verify-hero">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="verify-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Shield className="mx-auto mb-6" size={64} />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">Certificate Verification</h1>

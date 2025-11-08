@@ -8,7 +8,7 @@ const About = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="about-hero">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="about-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">About Us</h1>
           <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto">
@@ -89,9 +89,9 @@ const About = () => {
       {/* Managing Director's Message */}
       <section className="py-20 bg-white" data-testid="director-message">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-linear-to-br from-blue-50 to-blue-100 rounded-2xl p-8 md:p-12">
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 md:p-12">
             <div className="flex flex-col md:flex-row gap-8 items-center">
-              <div className="w-32 h-32 bg-blue-600 rounded-full flex items-center justify-center shrink-0">
+              <div className="w-32 h-32 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
                 <span className="text-white text-4xl font-bold">MA</span>
               </div>
               <div>

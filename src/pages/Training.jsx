@@ -46,7 +46,7 @@ const Training = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="training-hero">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="training-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">Lead Auditor Training</h1>
           <p className="text-lg sm:text-xl text-blue-100 max-w-3xl">
@@ -74,7 +74,7 @@ const Training = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {courses.map((course) => (
                 <div key={course.id} className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-blue-500 hover:shadow-xl transition" data-testid={`course-card-${course.id}`}>
-                  <div className="bg-linear-to-r from-blue-600 to-blue-500 p-6 text-white">
+                  <div className="bg-gradient-to-r from-blue-600 to-blue-500 p-6 text-white">
                     <div className="flex items-center gap-2 mb-2">
                       <Award size={24} />
                       <h3 className="text-xl font-bold">{course.iso_standard}</h3>
@@ -128,7 +128,7 @@ const Training = () => {
             {benefits.map((benefit, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6">
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center shrink-0">
+                  <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
                     <BookOpen className="text-white" size={16} />
                   </div>
                   <p className="text-gray-700 font-medium">{benefit}</p>
@@ -146,37 +146,37 @@ const Training = () => {
           <div className="bg-blue-50 rounded-xl p-8">
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <span className="text-white text-xs font-bold">1</span>
                 </div>
                 <p className="text-gray-700">Understanding ISO standards and management system requirements</p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <span className="text-white text-xs font-bold">2</span>
                 </div>
                 <p className="text-gray-700">Audit principles, practices, and techniques</p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <span className="text-white text-xs font-bold">3</span>
                 </div>
                 <p className="text-gray-700">Planning and conducting effective audits</p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <span className="text-white text-xs font-bold">4</span>
                 </div>
                 <p className="text-gray-700">Competence and evaluation of auditors</p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <span className="text-white text-xs font-bold">5</span>
                 </div>
                 <p className="text-gray-700">Audit reporting and follow-up activities</p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <span className="text-white text-xs font-bold">6</span>
                 </div>
                 <p className="text-gray-700">Practical case studies and role-playing exercises</p>

@@ -46,7 +46,7 @@ const Contact = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="contact-hero">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="contact-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">Contact Us</h1>
           <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto">
@@ -64,7 +64,7 @@ const Contact = () => {
               <h2 className="text-3xl font-bold text-blue-900 mb-8">Get In Touch</h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                     <MapPin className="text-blue-600" size={24} />
                   </div>
                   <div>
@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Phone className="text-blue-600" size={24} />
                   </div>
                   <div>
@@ -91,7 +91,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Mail className="text-blue-600" size={24} />
                   </div>
                   <div>
@@ -209,7 +209,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Our Global Presence</h2>
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <div className="aspect-video bg-linear-to-br from-blue-100 to-blue-200 flex items-center justify-center">
+            <div className="aspect-video bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center">
               <div className="text-center">
                 <MapPin className="mx-auto text-blue-600 mb-4" size={64} />
                 <p className="text-gray-700 font-medium">Global Map (Google Maps integration placeholder)</p>

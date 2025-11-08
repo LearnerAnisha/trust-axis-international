@@ -18,7 +18,7 @@ const Gallery = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="gallery-hero">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="gallery-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">Gallery</h1>
           <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto">
@@ -37,7 +37,7 @@ const Gallery = () => {
                 className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition cursor-pointer group"
                 data-testid={`gallery-item-${item.id}`}
               >
-                <div className="aspect-video bg-linear-to-br from-blue-400 to-blue-600 flex items-center justify-center group-hover:scale-105 transition">
+                <div className="aspect-video bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center group-hover:scale-105 transition">
                   <ImageIcon className="text-white" size={64} />
                 </div>
                 <div className="p-4">

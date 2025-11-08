@@ -88,7 +88,7 @@ const ISOCertification = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="iso-hero">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="iso-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">ISO Certification Services</h1>
           <p className="text-lg sm:text-xl text-blue-100 max-w-3xl">
@@ -181,7 +181,7 @@ const ISOCertification = () => {
               'Continuous improvement culture'
             ].map((benefit, index) => (
               <div key={index} className="flex items-start gap-3">
-                <CheckCircle2 className="text-green-600 shrink-0 mt-1" size={20} />
+                <CheckCircle2 className="text-green-600 flex-shrink-0 mt-1" size={20} />
                 <p className="text-gray-700">{benefit}</p>
               </div>
             ))}

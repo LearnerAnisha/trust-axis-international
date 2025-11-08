@@ -40,7 +40,7 @@ const Resources = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="resources-hero">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20" data-testid="resources-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">Resources & Downloads</h1>
           <p className="text-lg sm:text-xl text-blue-100 max-w-3xl">
@@ -69,7 +69,7 @@ const Resources = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {blogPosts.map((post, index) => (
                 <div key={post.id} className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-blue-500 hover:shadow-lg transition" data-testid={`blog-post-${index}`}>
-                  <div className="bg-linear-to-r from-blue-600 to-blue-500 p-6 text-white">
+                  <div className="bg-gradient-to-r from-blue-600 to-blue-500 p-6 text-white">
                     <div className="flex items-center gap-2 text-sm mb-2">
                       <Calendar size={14} />
                       <span>{new Date(post.created_at).toLocaleDateString()}</span>
@@ -144,21 +144,21 @@ const Resources = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-blue-900 mb-12 text-center">Helpful Resources</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-linear-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
               <h3 className="text-xl font-bold text-blue-900 mb-3">ISO Standards Guide</h3>
               <p className="text-gray-700 mb-4">Comprehensive overview of all ISO standards we offer</p>
               <Link to="/iso-certification">
                 <Button variant="link" className="text-blue-600">Learn More →</Button>
               </Link>
             </div>
-            <div className="bg-linear-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
               <h3 className="text-xl font-bold text-blue-900 mb-3">Training Calendar</h3>
               <p className="text-gray-700 mb-4">View upcoming training schedules and register</p>
               <Link to="/training">
                 <Button variant="link" className="text-blue-600">View Schedule →</Button>
               </Link>
             </div>
-            <div className="bg-linear-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
               <h3 className="text-xl font-bold text-blue-900 mb-3">Certification Process</h3>
               <p className="text-gray-700 mb-4">Step-by-step guide to getting ISO certified</p>
               <Link to="/iso-certification">
